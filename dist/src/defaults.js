@@ -1,4 +1,7 @@
-export const defaultChangelogRules = {
+'use strict'
+Object.defineProperty(exports, '__esModule', { value: true })
+exports.defaultReleaseTypes = exports.defaultChangelogRules = void 0
+exports.defaultChangelogRules = {
   feat: { release: 'minor', section: '🚀 Features' },
   fix: { release: 'patch', section: '🐛 Bug Fixes' },
   docs: { release: '', section: '📝 Documentation' },
@@ -7,5 +10,4 @@ export const defaultChangelogRules = {
   test: { release: '', section: '🧪 Tests' },
   chore: { release: '', section: '🛠 Chores' },
 }
-
-export const defaultReleaseTypes = ['major', 'minor', 'patch', 'prerelease']
+exports.defaultReleaseTypes = ['major', 'minor', 'patch', 'prerelease']
