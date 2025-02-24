@@ -1,0 +1,9 @@
+name: 'Auto SemVer Action'
+description: 'Automatically bumps and tags versions following SemVer'
+inputs:
+  github_token:
+    description: 'GitHub token to create tags and releases'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
